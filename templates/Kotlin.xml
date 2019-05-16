@@ -1,0 +1,13 @@
+<templateSet group="Kotlin">
+  <template name="pv" value="Log.d(&quot;JFV&quot;, &quot;$CLASS$.$METHOD$ . $EXPR_COPY$ = $DOLLAR${$EXPR$}&quot;)" description="print variable" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOLLAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_CLASS" value="false" />
+    </context>
+  </template>
+</templateSet>
